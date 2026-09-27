@@ -10,6 +10,27 @@ Row {
   height: rootRef.tabsHeight
   spacing: Style.space(4)
 
+  function scrollToCategory(categoryIndex) {
+    if (categoryIndex < 0 || categoryIndex >= categoriesRow.children.length) return
+    
+    var delegate = categoriesRow.children[categoryIndex]
+    if (!delegate) return
+
+    var flickableWidth = categoriesFlickable.width
+    var contentX = categoriesFlickable.contentX
+    var delegateX = delegate.x
+    var delegateWidth = delegate.width
+
+    var leftEdge = contentX
+    var rightEdge = contentX + flickableWidth
+
+    if (delegateX < leftEdge) {
+      categoriesFlickable.contentX = delegateX
+    } else if (delegateX + delegateWidth > rightEdge) {
+      categoriesFlickable.contentX = delegateX + delegateWidth - flickableWidth
+    }
+  }
+
   Flickable {
     id: categoriesFlickable
     width: parent.width

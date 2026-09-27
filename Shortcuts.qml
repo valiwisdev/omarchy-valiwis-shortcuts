@@ -239,8 +239,8 @@ Item {
     Qt.callLater(function() {
       var cats = root.visibleCategories
       var index = cats.indexOf(category)
-      if (index >= 0 && categoriesRow.children[index]) {
-        root.scrollCategoryIntoView(categoriesRow.children[index])
+      if (index >= 0) {
+        categoryBar.scrollToCategory(index)
       }
     })
   }
@@ -257,28 +257,8 @@ Item {
     root.rebuildShortcuts()
 
     Qt.callLater(function() {
-      if (categoriesRow.children[newIndex]) {
-        root.scrollCategoryIntoView(categoriesRow.children[newIndex])
-      }
+      categoryBar.scrollToCategory(newIndex)
     })
-  }
-
-  function scrollCategoryIntoView(categoryDelegate) {
-    if (!categoriesFlickable || !categoryDelegate) return
-
-    var flickableWidth = categoriesFlickable.width
-    var contentX = categoriesFlickable.contentX
-    var delegateX = categoryDelegate.x
-    var delegateWidth = categoryDelegate.width
-
-    var leftEdge = contentX
-    var rightEdge = contentX + flickableWidth
-
-    if (delegateX < leftEdge) {
-      categoriesFlickable.contentX = delegateX
-    } else if (delegateX + delegateWidth > rightEdge) {
-      categoriesFlickable.contentX = delegateX + delegateWidth - flickableWidth
-    }
   }
 
   function clearSearch() {
