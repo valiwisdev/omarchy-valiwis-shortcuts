@@ -10,7 +10,7 @@ PanelWindow {
   visible: rootRef.showNotification
   anchors { top: true; right: true }
   width: notificationContent.width + Style.space(40)
-  height: Style.space(60) + notificationContent.height + Style.space(100)
+  height: Style.space(60) + notificationContent.height
   color: "transparent"
   WlrLayershell.namespace: "valiwis-shortcuts-notification"
   WlrLayershell.layer: WlrLayer.Overlay
