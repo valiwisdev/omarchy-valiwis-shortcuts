@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "valiwis.shortcuts",
+  "name": "Shortcuts",
+  "version": "1.0.0",
+  "author": "valiwis",
+  "description": "Search and copy app shortcuts",
+  "kinds": [
+    "overlay"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "Shortcuts.qml"
+  }
+}

@@ -1,0 +1,1214 @@
+[
+  {
+    "app": "Linux",
+    "icon": "\uf31a",
+    "categories": {
+      "File Operations": [
+        {
+          "keys": "ls -la",
+          "action": "List all files with details"
+        },
+        {
+          "keys": "cd ~",
+          "action": "Go to home directory"
+        },
+        {
+          "keys": "cd ..",
+          "action": "Go up one directory"
+        },
+        {
+          "keys": "pwd",
+          "action": "Print working directory"
+        },
+        {
+          "keys": "mkdir dir",
+          "action": "Create directory"
+        },
+        {
+          "keys": "mkdir -p a/b/c",
+          "action": "Create nested directories"
+        },
+        {
+          "keys": "touch file",
+          "action": "Create empty file"
+        },
+        {
+          "keys": "cp -r src dst",
+          "action": "Copy recursively"
+        },
+        {
+          "keys": "mv old new",
+          "action": "Move/rename file"
+        },
+        {
+          "keys": "rm -rf dir",
+          "action": "Remove directory recursively"
+        },
+        {
+          "keys": "chmod 755 file",
+          "action": "Set permissions"
+        },
+        {
+          "keys": "chown user:group file",
+          "action": "Change ownership"
+        },
+        {
+          "keys": "ln -s target link",
+          "action": "Create symbolic link"
+        }
+      ],
+      "Search": [
+        {
+          "keys": "find . -name '*.txt'",
+          "action": "Find files by name"
+        },
+        {
+          "keys": "grep -r 'pattern' dir",
+          "action": "Recursive search"
+        }
+      ],
+      "View": [
+        {
+          "keys": "cat file",
+          "action": "Display file contents"
+        },
+        {
+          "keys": "less file",
+          "action": "View file with pager"
+        },
+        {
+          "keys": "head -n 20 file",
+          "action": "Show first 20 lines"
+        },
+        {
+          "keys": "tail -f log",
+          "action": "Follow log file"
+        }
+      ],
+      "Text Processing": [
+        {
+          "keys": "wc -l file",
+          "action": "Count lines"
+        },
+        {
+          "keys": "sort file",
+          "action": "Sort lines"
+        },
+        {
+          "keys": "uniq",
+          "action": "Remove duplicates"
+        },
+        {
+          "keys": "diff file1 file2",
+          "action": "Compare files"
+        }
+      ],
+      "Compression": [
+        {
+          "keys": "tar -czf archive.tar.gz dir",
+          "action": "Compress directory"
+        },
+        {
+          "keys": "tar -xzf archive.tar.gz",
+          "action": "Extract archive"
+        },
+        {
+          "keys": "zip -r archive.zip dir",
+          "action": "Create zip archive"
+        },
+        {
+          "keys": "unzip archive.zip",
+          "action": "Extract zip"
+        }
+      ],
+      "Processes": [
+        {
+          "keys": "ps aux",
+          "action": "List all processes"
+        },
+        {
+          "keys": "top",
+          "action": "Interactive process viewer"
+        },
+        {
+          "keys": "kill -9 pid",
+          "action": "Force kill process"
+        },
+        {
+          "keys": "killall name",
+          "action": "Kill by name"
+        }
+      ],
+      "System Info": [
+        {
+          "keys": "df -h",
+          "action": "Disk usage"
+        },
+        {
+          "keys": "du -sh *",
+          "action": "Directory sizes"
+        },
+        {
+          "keys": "free -h",
+          "action": "Memory usage"
+        },
+        {
+          "keys": "mount /dev/sda1 /mnt",
+          "action": "Mount device"
+        },
+        {
+          "keys": "umount /mnt",
+          "action": "Unmount"
+        },
+        {
+          "keys": "whoami",
+          "action": "Current user"
+        },
+        {
+          "keys": "hostname",
+          "action": "System hostname"
+        },
+        {
+          "keys": "uname -a",
+          "action": "System information"
+        },
+        {
+          "keys": "date",
+          "action": "Current date/time"
+        },
+        {
+          "keys": "cal",
+          "action": "Calendar"
+        },
+        {
+          "keys": "env",
+          "action": "Show environment"
+        },
+        {
+          "keys": "echo $PATH",
+          "action": "Show PATH variable"
+        }
+      ],
+      "Services": [
+        {
+          "keys": "systemctl status service",
+          "action": "Check service status"
+        },
+        {
+          "keys": "systemctl start service",
+          "action": "Start service"
+        },
+        {
+          "keys": "systemctl stop service",
+          "action": "Stop service"
+        },
+        {
+          "keys": "systemctl restart service",
+          "action": "Restart service"
+        },
+        {
+          "keys": "systemctl enable service",
+          "action": "Enable service"
+        },
+        {
+          "keys": "journalctl -u service",
+          "action": "View service logs"
+        },
+        {
+          "keys": "journalctl -f",
+          "action": "Follow logs"
+        }
+      ],
+      "Network": [
+        {
+          "keys": "ssh user@host",
+          "action": "SSH login"
+        },
+        {
+          "keys": "scp file user@host:path",
+          "action": "Copy file to remote"
+        },
+        {
+          "keys": "rsync -avz src dst",
+          "action": "Sync directories"
+        },
+        {
+          "keys": "curl -O url",
+          "action": "Download file"
+        },
+        {
+          "keys": "wget url",
+          "action": "Download file"
+        },
+        {
+          "keys": "ping host",
+          "action": "Test connectivity"
+        },
+        {
+          "keys": "ip addr",
+          "action": "Show IP addresses"
+        },
+        {
+          "keys": "ss -tuln",
+          "action": "Show listening ports"
+        },
+        {
+          "keys": "dig domain",
+          "action": "DNS lookup"
+        }
+      ],
+      "Shell": [
+        {
+          "keys": "export VAR=value",
+          "action": "Set environment variable"
+        },
+        {
+          "keys": "alias name='command'",
+          "action": "Create alias"
+        },
+        {
+          "keys": "history",
+          "action": "Command history"
+        },
+        {
+          "keys": "clear",
+          "action": "Clear terminal"
+        },
+        {
+          "keys": "man command",
+          "action": "Manual page"
+        },
+        {
+          "keys": "sudo command",
+          "action": "Run as root"
+        },
+        {
+          "keys": "su - user",
+          "action": "Switch user"
+        },
+        {
+          "keys": "watch -n 2 cmd",
+          "action": "Run command repeatedly"
+        },
+        {
+          "keys": "file name",
+          "action": "Determine file type"
+        },
+        {
+          "keys": "which command",
+          "action": "Locate command"
+        }
+      ]
+    }
+  },
+  {
+    "app": "Arch Linux",
+    "icon": "\uf303",
+    "categories": {
+      "Install": [
+        {
+          "keys": "pacman -S package",
+          "action": "Install package"
+        },
+        {
+          "keys": "yay -S package",
+          "action": "Install from AUR"
+        }
+      ],
+      "Remove": [
+        {
+          "keys": "pacman -R package",
+          "action": "Remove package"
+        },
+        {
+          "keys": "pacman -Rns package",
+          "action": "Remove with deps and config"
+        },
+        {
+          "keys": "yay -Rns package",
+          "action": "Remove AUR package"
+        }
+      ],
+      "Update": [
+        {
+          "keys": "pacman -Syu",
+          "action": "Full system update"
+        },
+        {
+          "keys": "yay -Syu",
+          "action": "Update all (AUR included)"
+        }
+      ],
+      "Search": [
+        {
+          "keys": "pacman -Qs package",
+          "action": "Search installed"
+        },
+        {
+          "keys": "pacman -Ss keyword",
+          "action": "Search packages"
+        },
+        {
+          "keys": "yay -Ss keyword",
+          "action": "Search AUR"
+        }
+      ],
+      "Info": [
+        {
+          "keys": "pacman -Qi package",
+          "action": "Package info"
+        },
+        {
+          "keys": "pacman -Ql package",
+          "action": "List package files"
+        }
+      ],
+      "List": [
+        {
+          "keys": "pacman -Qe",
+          "action": "List explicitly installed"
+        },
+        {
+          "keys": "pacman -Qdt",
+          "action": "List orphans"
+        }
+      ]
+    }
+  },
+  {
+    "app": "Docker",
+    "icon": "\uf308",
+    "categories": {
+      "Containers": [
+        {
+          "keys": "docker ps",
+          "action": "List running containers"
+        },
+        {
+          "keys": "docker ps -a",
+          "action": "List all containers"
+        },
+        {
+          "keys": "docker exec -it container bash",
+          "action": "Exec into container"
+        },
+        {
+          "keys": "docker logs -f container",
+          "action": "Follow container logs"
+        },
+        {
+          "keys": "docker start container",
+          "action": "Start container"
+        },
+        {
+          "keys": "docker stop container",
+          "action": "Stop container"
+        },
+        {
+          "keys": "docker restart container",
+          "action": "Restart container"
+        },
+        {
+          "keys": "docker rm container",
+          "action": "Remove container"
+        },
+        {
+          "keys": "docker run -d image",
+          "action": "Run detached"
+        }
+      ],
+      "Images": [
+        {
+          "keys": "docker images",
+          "action": "List images"
+        },
+        {
+          "keys": "docker rmi image",
+          "action": "Remove image"
+        },
+        {
+          "keys": "docker build -t tag .",
+          "action": "Build image"
+        }
+      ],
+      "Compose": [
+        {
+          "keys": "docker-compose up -d",
+          "action": "Start compose"
+        },
+        {
+          "keys": "docker-compose down",
+          "action": "Stop compose"
+        },
+        {
+          "keys": "docker-compose logs -f",
+          "action": "Follow compose logs"
+        },
+        {
+          "keys": "docker-compose ps",
+          "action": "List compose services"
+        }
+      ],
+      "Cleanup": [
+        {
+          "keys": "docker system prune -a",
+          "action": "Clean unused data"
+        }
+      ],
+      "Other": [
+        {
+          "keys": "docker volume ls",
+          "action": "List volumes"
+        },
+        {
+          "keys": "docker network ls",
+          "action": "List networks"
+        }
+      ]
+    }
+  },
+  {
+    "app": "Git",
+    "icon": "\uf1d3",
+    "categories": {
+      "Status": [
+        {
+          "keys": "git status",
+          "action": "Check status"
+        },
+        {
+          "keys": "git diff",
+          "action": "Show unstaged changes"
+        },
+        {
+          "keys": "git diff --cached",
+          "action": "Show staged changes"
+        }
+      ],
+      "Staging": [
+        {
+          "keys": "git add .",
+          "action": "Stage all changes"
+        },
+        {
+          "keys": "git add -p",
+          "action": "Stage interactively"
+        }
+      ],
+      "Commits": [
+        {
+          "keys": "git commit -m 'msg'",
+          "action": "Commit changes"
+        },
+        {
+          "keys": "git commit --amend",
+          "action": "Amend last commit"
+        },
+        {
+          "keys": "git log --oneline",
+          "action": "View commit history"
+        },
+        {
+          "keys": "git log -p",
+          "action": "View commit diffs"
+        }
+      ],
+      "Remote": [
+        {
+          "keys": "git push",
+          "action": "Push to remote"
+        },
+        {
+          "keys": "git push -u origin branch",
+          "action": "Push new branch"
+        },
+        {
+          "keys": "git pull",
+          "action": "Pull from remote"
+        },
+        {
+          "keys": "git pull --rebase",
+          "action": "Pull with rebase"
+        },
+        {
+          "keys": "git fetch",
+          "action": "Fetch from remote"
+        }
+      ],
+      "Branches": [
+        {
+          "keys": "git branch",
+          "action": "List branches"
+        },
+        {
+          "keys": "git branch name",
+          "action": "Create branch"
+        },
+        {
+          "keys": "git checkout branch",
+          "action": "Switch branch"
+        },
+        {
+          "keys": "git checkout -b branch",
+          "action": "Create and switch"
+        },
+        {
+          "keys": "git merge branch",
+          "action": "Merge branch"
+        },
+        {
+          "keys": "git rebase branch",
+          "action": "Rebase branch"
+        }
+      ],
+      "Stash": [
+        {
+          "keys": "git stash",
+          "action": "Stash changes"
+        },
+        {
+          "keys": "git stash pop",
+          "action": "Apply and remove stash"
+        },
+        {
+          "keys": "git stash list",
+          "action": "List stashes"
+        }
+      ],
+      "Reset": [
+        {
+          "keys": "git reset --hard HEAD",
+          "action": "Discard all changes"
+        },
+        {
+          "keys": "git reset HEAD~1",
+          "action": "Undo last commit"
+        }
+      ],
+      "Other": [
+        {
+          "keys": "git cherry-pick hash",
+          "action": "Cherry-pick commit"
+        },
+        {
+          "keys": "git tag name",
+          "action": "Create tag"
+        },
+        {
+          "keys": "git clone url",
+          "action": "Clone repository"
+        }
+      ]
+    }
+  },
+  {
+    "app": "Modern Tools",
+    "icon": "\uf0ad",
+    "categories": {
+      "Search": [
+        {
+          "keys": "fzf",
+          "action": "Fuzzy finder"
+        },
+        {
+          "keys": "fd pattern",
+          "action": "Find files fast"
+        },
+        {
+          "keys": "rg pattern",
+          "action": "Search files fast"
+        }
+      ],
+      "View": [
+        {
+          "keys": "bat file",
+          "action": "View file with syntax"
+        },
+        {
+          "keys": "eza -la",
+          "action": "Enhanced ls"
+        },
+        {
+          "keys": "eza --tree",
+          "action": "Tree view"
+        },
+        {
+          "keys": "tree -L 2",
+          "action": "Show directory tree"
+        }
+      ],
+      "Navigation": [
+        {
+          "keys": "zoxide cd",
+          "action": "Smart cd"
+        },
+        {
+          "keys": "z path",
+          "action": "Jump to directory"
+        }
+      ],
+      "Data": [
+        {
+          "keys": "jq '.key' file.json",
+          "action": "Parse JSON"
+        },
+        {
+          "keys": "jq '.[] | .name' file.json",
+          "action": "Extract JSON field"
+        },
+        {
+          "keys": "yq '.key' file.yaml",
+          "action": "Parse YAML"
+        }
+      ],
+      "System": [
+        {
+          "keys": "htop",
+          "action": "Interactive process viewer"
+        },
+        {
+          "keys": "btop",
+          "action": "Advanced process viewer"
+        },
+        {
+          "keys": "ncdu /",
+          "action": "Disk usage analyzer"
+        }
+      ],
+      "Help": [
+        {
+          "keys": "tldr command",
+          "action": "Simplified man pages"
+        }
+      ],
+      "TUI": [
+        {
+          "keys": "lazygit",
+          "action": "Git TUI"
+        },
+        {
+          "keys": "lazydocker",
+          "action": "Docker TUI"
+        },
+        {
+          "keys": "lazysql",
+          "action": "SQL TUI"
+        }
+      ]
+    }
+  },
+  {
+    "app": "LazyVim",
+    "icon": "\ue7a5",
+    "categories": {
+      "File": [
+        {
+          "keys": ":w",
+          "action": "Save file"
+        },
+        {
+          "keys": ":q",
+          "action": "Quit"
+        },
+        {
+          "keys": ":wq",
+          "action": "Save and quit"
+        },
+        {
+          "keys": ":e file",
+          "action": "Edit file"
+        }
+      ],
+      "Splits": [
+        {
+          "keys": ":sp",
+          "action": "Horizontal split"
+        },
+        {
+          "keys": ":vsp",
+          "action": "Vertical split"
+        },
+        {
+          "keys": ":vs file",
+          "action": "Vertical split with file"
+        }
+      ],
+      "Tabs": [
+        {
+          "keys": ":tabnew",
+          "action": "New tab"
+        },
+        {
+          "keys": ":tabn",
+          "action": "Next tab"
+        },
+        {
+          "keys": ":tabp",
+          "action": "Previous tab"
+        }
+      ],
+      "Buffers": [
+        {
+          "keys": ":bd",
+          "action": "Close buffer"
+        },
+        {
+          "keys": ":bn",
+          "action": "Next buffer"
+        },
+        {
+          "keys": ":bp",
+          "action": "Previous buffer"
+        },
+        {
+          "keys": ":ls",
+          "action": "List buffers"
+        },
+        {
+          "keys": ":b#",
+          "action": "Alternate buffer"
+        }
+      ],
+      "Display": [
+        {
+          "keys": ":set nu",
+          "action": "Show line numbers"
+        },
+        {
+          "keys": ":set nonu",
+          "action": "Hide line numbers"
+        },
+        {
+          "keys": ":set rnu",
+          "action": "Relative line numbers"
+        },
+        {
+          "keys": ":noh",
+          "action": "Clear search highlight"
+        }
+      ],
+      "Search/Replace": [
+        {
+          "keys": ":%s/old/new/g",
+          "action": "Replace all"
+        },
+        {
+          "keys": ":%s/old/new/gc",
+          "action": "Replace with confirm"
+        },
+        {
+          "keys": ":g/pattern/d",
+          "action": "Delete matching lines"
+        },
+        {
+          "keys": ":g/pattern/",
+          "action": "Show matching lines"
+        }
+      ],
+      "Shell": [
+        {
+          "keys": ":!cmd",
+          "action": "Run shell command"
+        },
+        {
+          "keys": ":w !sudo tee %",
+          "action": "Save with sudo"
+        }
+      ],
+      "LSP": [
+        {
+          "keys": ":LspInfo",
+          "action": "LSP server info"
+        },
+        {
+          "keys": ":LspRestart",
+          "action": "Restart LSP server"
+        },
+        {
+          "keys": ":Mason",
+          "action": "Open Mason (LSP manager)"
+        }
+      ],
+      "Plugins": [
+        {
+          "keys": ":Lazy",
+          "action": "Open Lazy (plugin manager)"
+        },
+        {
+          "keys": ":Lazy sync",
+          "action": "Sync plugins"
+        },
+        {
+          "keys": ":Lazy update",
+          "action": "Update plugins"
+        }
+      ],
+      "Telescope": [
+        {
+          "keys": ":Telescope find_files",
+          "action": "Find files"
+        },
+        {
+          "keys": ":Telescope live_grep",
+          "action": "Live grep"
+        },
+        {
+          "keys": ":Telescope buffers",
+          "action": "Search buffers"
+        },
+        {
+          "keys": ":Telescope help_tags",
+          "action": "Search help"
+        }
+      ],
+      "Other": [
+        {
+          "keys": ":Neotree",
+          "action": "Toggle file tree"
+        },
+        {
+          "keys": ":TodoQuickFix",
+          "action": "Todo quickfix list"
+        },
+        {
+          "keys": ":UndotreeToggle",
+          "action": "Toggle undo tree"
+        },
+        {
+          "keys": ":DiffviewOpen",
+          "action": "Open diff view"
+        },
+        {
+          "keys": ":DiffviewClose",
+          "action": "Close diff view"
+        },
+        {
+          "keys": ":luafile %",
+          "action": "Execute Lua file"
+        },
+        {
+          "keys": ":source %",
+          "action": "Source current file"
+        },
+        {
+          "keys": ":echo &ft",
+          "action": "Show filetype"
+        },
+        {
+          "keys": ":set ft=lua",
+          "action": "Set filetype"
+        }
+      ]
+    }
+  },
+  {
+    "app": "systemd",
+    "icon": "\uf013",
+    "categories": {
+      "Service Control": [
+        {
+          "keys": "systemctl status service",
+          "action": "Check service status"
+        },
+        {
+          "keys": "systemctl start service",
+          "action": "Start service"
+        },
+        {
+          "keys": "systemctl stop service",
+          "action": "Stop service"
+        },
+        {
+          "keys": "systemctl restart service",
+          "action": "Restart service"
+        },
+        {
+          "keys": "systemctl reload service",
+          "action": "Reload service config"
+        },
+        {
+          "keys": "systemctl enable service",
+          "action": "Enable service at boot"
+        },
+        {
+          "keys": "systemctl disable service",
+          "action": "Disable service at boot"
+        },
+        {
+          "keys": "systemctl mask service",
+          "action": "Mask service (prevent start)"
+        },
+        {
+          "keys": "systemctl unmask service",
+          "action": "Unmask service"
+        }
+      ],
+      "Service Info": [
+        {
+          "keys": "systemctl list-units",
+          "action": "List all units"
+        },
+        {
+          "keys": "systemctl list-units --failed",
+          "action": "List failed units"
+        },
+        {
+          "keys": "systemctl list-unit-files",
+          "action": "List unit files"
+        },
+        {
+          "keys": "systemctl cat service",
+          "action": "Show service file"
+        },
+        {
+          "keys": "systemctl show service",
+          "action": "Show service properties"
+        },
+        {
+          "keys": "systemctl is-active service",
+          "action": "Check if service is active"
+        },
+        {
+          "keys": "systemctl is-enabled service",
+          "action": "Check if service is enabled"
+        }
+      ],
+      "Config": [
+        {
+          "keys": "systemctl daemon-reload",
+          "action": "Reload systemd config"
+        },
+        {
+          "keys": "systemctl edit service",
+          "action": "Edit service override"
+        }
+      ],
+      "Logs": [
+        {
+          "keys": "journalctl -u service",
+          "action": "View service logs"
+        },
+        {
+          "keys": "journalctl -u service -f",
+          "action": "Follow service logs"
+        },
+        {
+          "keys": "journalctl -b",
+          "action": "Logs since boot"
+        },
+        {
+          "keys": "journalctl -k",
+          "action": "Kernel logs"
+        },
+        {
+          "keys": "journalctl -p err",
+          "action": "Error logs only"
+        },
+        {
+          "keys": "journalctl --since today",
+          "action": "Today's logs"
+        },
+        {
+          "keys": "journalctl --since '1 hour ago'",
+          "action": "Last hour logs"
+        },
+        {
+          "keys": "journalctl -xe",
+          "action": "Extended error logs"
+        },
+        {
+          "keys": "journalctl --vacuum-size=500M",
+          "action": "Limit journal size"
+        }
+      ],
+      "Analysis": [
+        {
+          "keys": "systemd-analyze",
+          "action": "Boot time analysis"
+        },
+        {
+          "keys": "systemd-analyze blame",
+          "action": "Slow boot units"
+        },
+        {
+          "keys": "systemd-analyze critical-chain",
+          "action": "Boot critical path"
+        },
+        {
+          "keys": "systemd-analyze security",
+          "action": "Security analysis"
+        }
+      ],
+      "User": [
+        {
+          "keys": "systemd-run --user command",
+          "action": "Run command as user service"
+        }
+      ],
+      "Sessions": [
+        {
+          "keys": "loginctl list-sessions",
+          "action": "List login sessions"
+        },
+        {
+          "keys": "loginctl show-session ID",
+          "action": "Show session details"
+        },
+        {
+          "keys": "machinectl list",
+          "action": "List containers/VMs"
+        }
+      ],
+      "Time/Host": [
+        {
+          "keys": "timedatectl",
+          "action": "Show time settings"
+        },
+        {
+          "keys": "timedatectl set-timezone Zone",
+          "action": "Set timezone"
+        },
+        {
+          "keys": "hostnamectl",
+          "action": "Show hostname info"
+        },
+        {
+          "keys": "hostnamectl set-hostname name",
+          "action": "Set hostname"
+        }
+      ]
+    }
+  },
+  {
+    "app": "Compression",
+    "icon": "\uf1c6",
+    "categories": {
+      "tar": [
+        {
+          "keys": "tar -czf archive.tar.gz dir",
+          "action": "Compress with gzip"
+        },
+        {
+          "keys": "tar -xzf archive.tar.gz",
+          "action": "Extract gzip archive"
+        },
+        {
+          "keys": "tar -cjf archive.tar.bz2 dir",
+          "action": "Compress with bzip2"
+        },
+        {
+          "keys": "tar -xjf archive.tar.bz2",
+          "action": "Extract bzip2 archive"
+        },
+        {
+          "keys": "tar -cJf archive.tar.xz dir",
+          "action": "Compress with xz"
+        },
+        {
+          "keys": "tar -xJf archive.tar.xz",
+          "action": "Extract xz archive"
+        },
+        {
+          "keys": "tar -cf archive.tar dir",
+          "action": "Create tar (no compression)"
+        },
+        {
+          "keys": "tar -xf archive.tar",
+          "action": "Extract tar archive"
+        },
+        {
+          "keys": "tar -tzf archive.tar.gz",
+          "action": "List archive contents"
+        },
+        {
+          "keys": "tar -xzf archive.tar.gz -C dir",
+          "action": "Extract to directory"
+        }
+      ],
+      "zip": [
+        {
+          "keys": "zip -r archive.zip dir",
+          "action": "Create zip archive"
+        },
+        {
+          "keys": "unzip archive.zip",
+          "action": "Extract zip archive"
+        },
+        {
+          "keys": "unzip archive.zip -d dir",
+          "action": "Extract zip to directory"
+        },
+        {
+          "keys": "zip -e archive.zip dir",
+          "action": "Create encrypted zip"
+        }
+      ],
+      "gzip": [
+        {
+          "keys": "gzip file",
+          "action": "Compress single file"
+        },
+        {
+          "keys": "gzip -d file.gz",
+          "action": "Decompress gzip file"
+        },
+        {
+          "keys": "gzip -k file",
+          "action": "Compress keeping original"
+        },
+        {
+          "keys": "gzip -9 file",
+          "action": "Maximum compression"
+        }
+      ],
+      "bzip2": [
+        {
+          "keys": "bzip2 file",
+          "action": "Compress with bzip2"
+        },
+        {
+          "keys": "bzip2 -d file.bz2",
+          "action": "Decompress bzip2 file"
+        }
+      ],
+      "xz": [
+        {
+          "keys": "xz file",
+          "action": "Compress with xz"
+        },
+        {
+          "keys": "xz -d file.xz",
+          "action": "Decompress xz file"
+        },
+        {
+          "keys": "xz -9 file",
+          "action": "Maximum xz compression"
+        }
+      ],
+      "zstd": [
+        {
+          "keys": "zstd file",
+          "action": "Compress with zstd"
+        },
+        {
+          "keys": "zstd -d file.zst",
+          "action": "Decompress zstd file"
+        },
+        {
+          "keys": "zstd -19 file",
+          "action": "Maximum zstd compression"
+        }
+      ],
+      "Other": [
+        {
+          "keys": "file archive",
+          "action": "Identify archive type"
+        },
+        {
+          "keys": "lsarchive",
+          "action": "List all archive contents"
+        }
+      ]
+    }
+  }
+]

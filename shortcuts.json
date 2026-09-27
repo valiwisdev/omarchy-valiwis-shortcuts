@@ -1,0 +1,2940 @@
+[
+  {
+    "app": "VS Code",
+    "icon": "\ue70c",
+    "categories": {
+      "General": [
+        {
+          "keys": "Ctrl+Shift+P",
+          "action": "Command Palette"
+        },
+        {
+          "keys": "Ctrl+P",
+          "action": "Quick Open File"
+        },
+        {
+          "keys": "Ctrl+Shift+N",
+          "action": "New Window"
+        },
+        {
+          "keys": "Ctrl+K Ctrl+S",
+          "action": "Keyboard Shortcuts"
+        },
+        {
+          "keys": "Ctrl+K Ctrl+T",
+          "action": "Select Theme"
+        },
+        {
+          "keys": "Ctrl+K Z",
+          "action": "Zen Mode"
+        }
+      ],
+      "Editing": [
+        {
+          "keys": "Ctrl+/",
+          "action": "Toggle Line Comment"
+        },
+        {
+          "keys": "Ctrl+Shift+L",
+          "action": "Select All Occurrences"
+        },
+        {
+          "keys": "Ctrl+D",
+          "action": "Select Next Occurrence"
+        },
+        {
+          "keys": "Ctrl+L",
+          "action": "Select Line"
+        },
+        {
+          "keys": "Ctrl+Shift+K",
+          "action": "Delete Line"
+        },
+        {
+          "keys": "Alt+Up",
+          "action": "Move Line Up"
+        },
+        {
+          "keys": "Alt+Down",
+          "action": "Move Line Down"
+        },
+        {
+          "keys": "Shift+Alt+Up",
+          "action": "Copy Line Up"
+        },
+        {
+          "keys": "Shift+Alt+Down",
+          "action": "Copy Line Down"
+        },
+        {
+          "keys": "Ctrl+Enter",
+          "action": "Insert Line Below"
+        },
+        {
+          "keys": "Ctrl+Shift+Enter",
+          "action": "Insert Line Above"
+        },
+        {
+          "keys": "Ctrl+Shift+\\",
+          "action": "Jump to Matching Bracket"
+        },
+        {
+          "keys": "Ctrl+]",
+          "action": "Indent Line"
+        },
+        {
+          "keys": "Ctrl+[",
+          "action": "Outdent Line"
+        },
+        {
+          "keys": "Ctrl+Shift+[",
+          "action": "Fold Region"
+        },
+        {
+          "keys": "Ctrl+Shift+]",
+          "action": "Unfold Region"
+        }
+      ],
+      "Navigation": [
+        {
+          "keys": "Ctrl+G",
+          "action": "Go to Line"
+        },
+        {
+          "keys": "F12",
+          "action": "Go to Definition"
+        },
+        {
+          "keys": "Alt+F12",
+          "action": "Peek Definition"
+        },
+        {
+          "keys": "Ctrl+Shift+O",
+          "action": "Go to Symbol"
+        },
+        {
+          "keys": "Alt+Left",
+          "action": "Go Back"
+        },
+        {
+          "keys": "Alt+Right",
+          "action": "Go Forward"
+        },
+        {
+          "keys": "F2",
+          "action": "Rename Symbol"
+        }
+      ],
+      "Panels": [
+        {
+          "keys": "Ctrl+`",
+          "action": "Toggle Terminal"
+        },
+        {
+          "keys": "Ctrl+B",
+          "action": "Toggle Sidebar"
+        },
+        {
+          "keys": "Ctrl+Shift+E",
+          "action": "Focus Explorer"
+        },
+        {
+          "keys": "Ctrl+J",
+          "action": "Toggle Panel"
+        },
+        {
+          "keys": "Ctrl+Shift+M",
+          "action": "Problems Panel"
+        },
+        {
+          "keys": "Ctrl+Shift+U",
+          "action": "Output Panel"
+        },
+        {
+          "keys": "Ctrl+Shift+X",
+          "action": "Extensions"
+        },
+        {
+          "keys": "Ctrl+Shift+D",
+          "action": "Debug Panel"
+        },
+        {
+          "keys": "Ctrl+Shift+G",
+          "action": "Source Control"
+        }
+      ],
+      "Search": [
+        {
+          "keys": "Ctrl+Shift+F",
+          "action": "Search in Files"
+        },
+        {
+          "keys": "Ctrl+Shift+H",
+          "action": "Replace in Files"
+        },
+        {
+          "keys": "Ctrl+Shift+J",
+          "action": "Toggle Search Details"
+        }
+      ],
+      "Editor": [
+        {
+          "keys": "Ctrl+Tab",
+          "action": "Switch Editor Group"
+        },
+        {
+          "keys": "Ctrl+W",
+          "action": "Close Editor"
+        },
+        {
+          "keys": "Ctrl+\\",
+          "action": "Split Editor"
+        },
+        {
+          "keys": "Ctrl+1/2/3",
+          "action": "Focus Editor Group 1/2/3"
+        }
+      ],
+      "Code": [
+        {
+          "keys": "Ctrl+Shift+I",
+          "action": "Format Document"
+        },
+        {
+          "keys": "Ctrl+K Ctrl+F",
+          "action": "Format Selection"
+        },
+        {
+          "keys": "Ctrl+Space",
+          "action": "Trigger Suggest"
+        },
+        {
+          "keys": "Ctrl+Shift+Space",
+          "action": "Trigger Parameter Hints"
+        },
+        {
+          "keys": "Ctrl+Shift+V",
+          "action": "Markdown Preview"
+        },
+        {
+          "keys": "Ctrl+K V",
+          "action": "Markdown Preview Side by Side"
+        }
+      ]
+    }
+  },
+  {
+    "app": "LazyVim",
+    "icon": "\ue7a5",
+    "categories": {
+      "General": [
+        {
+          "keys": "Space",
+          "action": "Leader Key (Which-Key)"
+        },
+        {
+          "keys": "Esc",
+          "action": "Escape and Clear Search Highlight"
+        },
+        {
+          "keys": "Ctrl+s",
+          "action": "Save File"
+        },
+        {
+          "keys": "Space+l",
+          "action": "Lazy (Plugin Manager)"
+        },
+        {
+          "keys": "Space+qq",
+          "action": "Quit All"
+        },
+        {
+          "keys": "Space+L",
+          "action": "LazyVim Changelog"
+        },
+        {
+          "keys": "i",
+          "action": "Enter Insert Mode"
+        },
+        {
+          "keys": ":w",
+          "action": "Save"
+        },
+        {
+          "keys": ":q",
+          "action": "Quit"
+        },
+        {
+          "keys": ":wq",
+          "action": "Save and Quit"
+        }
+      ],
+      "Windows": [
+        {
+          "keys": "Ctrl+h/j/k/l",
+          "action": "Go to Left/Lower/Upper/Right Window"
+        },
+        {
+          "keys": "Ctrl+Arrow",
+          "action": "Resize Window"
+        },
+        {
+          "keys": "Space+-",
+          "action": "Split Window Below"
+        },
+        {
+          "keys": "Space+|",
+          "action": "Split Window Right"
+        },
+        {
+          "keys": "Space+wd",
+          "action": "Delete Window"
+        },
+        {
+          "keys": "Space+wm",
+          "action": "Toggle Zoom Mode"
+        },
+        {
+          "keys": "Space+uZ",
+          "action": "Toggle Zoom Mode"
+        },
+        {
+          "keys": "Ctrl+W c",
+          "action": "Close Window"
+        },
+        {
+          "keys": "Ctrl+W h/j/k/l",
+          "action": "Navigate Windows"
+        }
+      ],
+      "Buffers": [
+        {
+          "keys": "Shift+h/l",
+          "action": "Previous/Next Buffer"
+        },
+        {
+          "keys": "[b / ]b",
+          "action": "Previous/Next Buffer"
+        },
+        {
+          "keys": "Space+bb",
+          "action": "Switch to Other Buffer"
+        },
+        {
+          "keys": "Space+bd",
+          "action": "Delete Buffer"
+        },
+        {
+          "keys": "Space+bo",
+          "action": "Delete Other Buffers"
+        },
+        {
+          "keys": "Space+bD",
+          "action": "Delete Buffer and Window"
+        }
+      ],
+      "Tabs": [
+        {
+          "keys": "Space+Tab+l",
+          "action": "Last Tab"
+        },
+        {
+          "keys": "Space+Tab+o",
+          "action": "Close Other Tabs"
+        },
+        {
+          "keys": "Space+Tab+f",
+          "action": "First Tab"
+        },
+        {
+          "keys": "Space+Tab+Tab",
+          "action": "New Tab"
+        },
+        {
+          "keys": "Space+Tab+]",
+          "action": "Next Tab"
+        },
+        {
+          "keys": "Space+Tab+d",
+          "action": "Close Tab"
+        },
+        {
+          "keys": "Space+Tab+[",
+          "action": "Previous Tab"
+        },
+        {
+          "keys": "gt",
+          "action": "Next Tab"
+        },
+        {
+          "keys": "gT",
+          "action": "Previous Tab"
+        }
+      ],
+      "Search": [
+        {
+          "keys": "Space+ur",
+          "action": "Redraw / Clear Search / Diff Update"
+        },
+        {
+          "keys": "n / N",
+          "action": "Next/Previous Search Result"
+        },
+        {
+          "keys": "/",
+          "action": "Search Forward"
+        },
+        {
+          "keys": "?",
+          "action": "Search Backward"
+        },
+        {
+          "keys": ":%s/old/new/g",
+          "action": "Replace All"
+        }
+      ],
+      "Telescope": [
+        {
+          "keys": "Space+fn",
+          "action": "New File"
+        },
+        {
+          "keys": "Space+ft",
+          "action": "Terminal (Root Dir)"
+        },
+        {
+          "keys": "Space+e",
+          "action": "File Explorer (Neo-tree)"
+        },
+        {
+          "keys": "Space+ff",
+          "action": "Find Files"
+        },
+        {
+          "keys": "Space+fg",
+          "action": "Live Grep (Root Dir)"
+        },
+        {
+          "keys": "Space+fG",
+          "action": "Live Grep (cwd)"
+        },
+        {
+          "keys": "Space+fr",
+          "action": "Recent Files"
+        },
+        {
+          "keys": "Space+fR",
+          "action": "Recent (cwd)"
+        },
+        {
+          "keys": "Space+fw",
+          "action": "Visual Selection or Word (Root Dir)"
+        },
+        {
+          "keys": "Space+fW",
+          "action": "Visual Selection or Word (cwd)"
+        },
+        {
+          "keys": "Space+fb",
+          "action": "Find Buffers"
+        },
+        {
+          "keys": "Space+fh",
+          "action": "Help Pages"
+        },
+        {
+          "keys": "Space+fH",
+          "action": "Highlights"
+        },
+        {
+          "keys": "Space+fi",
+          "action": "Icons"
+        },
+        {
+          "keys": "Space+fj",
+          "action": "Jumps"
+        },
+        {
+          "keys": "Space+fk",
+          "action": "Keymaps"
+        },
+        {
+          "keys": "Space+fl",
+          "action": "Location List"
+        },
+        {
+          "keys": "Space+fm",
+          "action": "Marks"
+        },
+        {
+          "keys": "Space+fM",
+          "action": "Man Pages"
+        },
+        {
+          "keys": "Space+fp",
+          "action": "Search for Plugin Spec"
+        },
+        {
+          "keys": "Space+fq",
+          "action": "Quickfix List"
+        },
+        {
+          "keys": "Space+fR",
+          "action": "Resume"
+        },
+        {
+          "keys": "Space+fs",
+          "action": "Search Current Buffer"
+        },
+        {
+          "keys": "Space+fS",
+          "action": "Search Workspace Symbols"
+        },
+        {
+          "keys": "Space+ft",
+          "action": "Terminal"
+        },
+        {
+          "keys": "Space+fu",
+          "action": "Undotree"
+        },
+        {
+          "keys": "Space+fC",
+          "action": "Colorschemes"
+        },
+        {
+          "keys": "Space+fn",
+          "action": "Dismiss All Notifications"
+        },
+        {
+          "keys": "Space+fp",
+          "action": "Projects"
+        }
+      ],
+      "LSP": [
+        {
+          "keys": "Space+K",
+          "action": "Keywordprg"
+        },
+        {
+          "keys": "Space+gd",
+          "action": "Goto Definition"
+        },
+        {
+          "keys": "Space+gD",
+          "action": "Goto Declaration"
+        },
+        {
+          "keys": "Space+gr",
+          "action": "References"
+        },
+        {
+          "keys": "Space+gI",
+          "action": "Goto Implementation"
+        },
+        {
+          "keys": "Space+gy",
+          "action": "Goto Type Definition"
+        },
+        {
+          "keys": "Space+K",
+          "action": "Hover"
+        },
+        {
+          "keys": "Space+ca",
+          "action": "Code Action"
+        },
+        {
+          "keys": "Space+cc",
+          "action": "Run Codelens"
+        },
+        {
+          "keys": "Space+cC",
+          "action": "Refresh & Display Codelens"
+        },
+        {
+          "keys": "Space+cR",
+          "action": "Rename File"
+        },
+        {
+          "keys": "Space+cr",
+          "action": "Rename"
+        },
+        {
+          "keys": "Space+cA",
+          "action": "Source Action"
+        },
+        {
+          "keys": "Space+co",
+          "action": "Organize Imports"
+        },
+        {
+          "keys": "Space+ss",
+          "action": "LSP Symbols"
+        },
+        {
+          "keys": "Space+sS",
+          "action": "LSP Workspace Symbols"
+        },
+        {
+          "keys": "g d",
+          "action": "Go to Definition"
+        },
+        {
+          "keys": "g D",
+          "action": "Go to Declaration"
+        },
+        {
+          "keys": "g r",
+          "action": "Go to References"
+        },
+        {
+          "keys": "g I",
+          "action": "Go to Implementation"
+        },
+        {
+          "keys": "g y",
+          "action": "Go to Type Definition"
+        },
+        {
+          "keys": "K",
+          "action": "Hover Documentation"
+        },
+        {
+          "keys": "g K",
+          "action": "Signature Help"
+        },
+        {
+          "keys": "]] / [[",
+          "action": "Next/Previous Reference"
+        },
+        {
+          "keys": "Alt+n / Alt+p",
+          "action": "Next/Previous Reference"
+        },
+        {
+          "keys": "Ctrl+]",
+          "action": "Go to Definition"
+        },
+        {
+          "keys": "Ctrl+T",
+          "action": "Go Back"
+        }
+      ],
+      "Git": [
+        {
+          "keys": "Space+gL",
+          "action": "Git Log (cwd)"
+        },
+        {
+          "keys": "Space+gb",
+          "action": "Git Blame Line"
+        },
+        {
+          "keys": "Space+gf",
+          "action": "Git Current File History"
+        },
+        {
+          "keys": "Space+gl",
+          "action": "Git Log"
+        },
+        {
+          "keys": "Space+gB",
+          "action": "Git Browse (open)"
+        },
+        {
+          "keys": "Space+gY",
+          "action": "Git Browse (copy)"
+        },
+        {
+          "keys": "Space+gg",
+          "action": "Git UI (Root Dir)"
+        },
+        {
+          "keys": "Space+gG",
+          "action": "Git UI (cwd)"
+        }
+      ],
+      "Diagnostics": [
+        {
+          "keys": "Space+cd",
+          "action": "Line Diagnostics"
+        },
+        {
+          "keys": "]d / [d",
+          "action": "Next/Previous Diagnostic"
+        },
+        {
+          "keys": "]e / [e",
+          "action": "Next/Previous Error"
+        },
+        {
+          "keys": "]w / [w",
+          "action": "Next/Previous Warning"
+        },
+        {
+          "keys": "Space+ud",
+          "action": "Toggle Diagnostics"
+        }
+      ],
+      "UI Toggles": [
+        {
+          "keys": "Space+uf",
+          "action": "Toggle Auto Format (Global)"
+        },
+        {
+          "keys": "Space+uF",
+          "action": "Toggle Auto Format (Buffer)"
+        },
+        {
+          "keys": "Space+us",
+          "action": "Toggle Spelling"
+        },
+        {
+          "keys": "Space+uw",
+          "action": "Toggle Wrap"
+        },
+        {
+          "keys": "Space+uL",
+          "action": "Toggle Relative Number"
+        },
+        {
+          "keys": "Space+ul",
+          "action": "Toggle Line Numbers"
+        },
+        {
+          "keys": "Space+uc",
+          "action": "Toggle Conceal Level"
+        },
+        {
+          "keys": "Space+uA",
+          "action": "Toggle Tabline"
+        },
+        {
+          "keys": "Space+uT",
+          "action": "Toggle Treesitter Highlight"
+        },
+        {
+          "keys": "Space+ub",
+          "action": "Toggle Dark Background"
+        },
+        {
+          "keys": "Space+uD",
+          "action": "Toggle Dimming"
+        },
+        {
+          "keys": "Space+ua",
+          "action": "Toggle Animations"
+        },
+        {
+          "keys": "Space+ug",
+          "action": "Toggle Indent Guides"
+        },
+        {
+          "keys": "Space+uS",
+          "action": "Toggle Smooth Scroll"
+        },
+        {
+          "keys": "Space+uh",
+          "action": "Toggle Inlay Hints"
+        },
+        {
+          "keys": "Space+ui",
+          "action": "Inspect Pos"
+        },
+        {
+          "keys": "Space+uI",
+          "action": "Inspect Tree"
+        }
+      ],
+      "Terminal": [
+        {
+          "keys": "Space+fT",
+          "action": "Terminal (cwd)"
+        },
+        {
+          "keys": "Space+ft",
+          "action": "Terminal (Root Dir)"
+        },
+        {
+          "keys": "Ctrl+/",
+          "action": "Terminal (Root Dir)"
+        },
+        {
+          "keys": "Space+ft",
+          "action": "Terminal"
+        }
+      ],
+      "Editing": [
+        {
+          "keys": "Alt+j/k",
+          "action": "Move Line Down/Up"
+        },
+        {
+          "keys": "gco / gcO",
+          "action": "Add Comment Below/Above"
+        },
+        {
+          "keys": "dd",
+          "action": "Delete Line"
+        },
+        {
+          "keys": "yy",
+          "action": "Yank Line"
+        },
+        {
+          "keys": "p",
+          "action": "Paste After"
+        },
+        {
+          "keys": "P",
+          "action": "Paste Before"
+        },
+        {
+          "keys": "u",
+          "action": "Undo"
+        },
+        {
+          "keys": "Ctrl+R",
+          "action": "Redo"
+        },
+        {
+          "keys": "v",
+          "action": "Visual Mode"
+        },
+        {
+          "keys": "V",
+          "action": "Visual Line Mode"
+        },
+        {
+          "keys": "Ctrl+V",
+          "action": "Visual Block Mode"
+        },
+        {
+          "keys": "gg",
+          "action": "Go to First Line"
+        },
+        {
+          "keys": "G",
+          "action": "Go to Last Line"
+        },
+        {
+          "keys": "0",
+          "action": "Go to Start of Line"
+        },
+        {
+          "keys": "$",
+          "action": "Go to End of Line"
+        },
+        {
+          "keys": "w",
+          "action": "Next Word"
+        },
+        {
+          "keys": "b",
+          "action": "Previous Word"
+        },
+        {
+          "keys": "o",
+          "action": "Open Line Below"
+        },
+        {
+          "keys": "O",
+          "action": "Open Line Above"
+        },
+        {
+          "keys": "x",
+          "action": "Delete Character"
+        },
+        {
+          "keys": ">",
+          "action": "Indent Right"
+        },
+        {
+          "keys": "<",
+          "action": "Indent Left"
+        },
+        {
+          "keys": "==",
+          "action": "Auto-Indent Line"
+        }
+      ],
+      "Text Objects": [
+        {
+          "keys": "ciw",
+          "action": "Change Inner Word"
+        },
+        {
+          "keys": "diw",
+          "action": "Delete Inner Word"
+        },
+        {
+          "keys": "yi\"",
+          "action": "Yank Inside Quotes"
+        },
+        {
+          "keys": "ci\"",
+          "action": "Change Inside Quotes"
+        },
+        {
+          "keys": "di(",
+          "action": "Delete Inside Parentheses"
+        },
+        {
+          "keys": "ci{",
+          "action": "Change Inside Braces"
+        }
+      ],
+      "Trouble": [
+        {
+          "keys": "Space+xl",
+          "action": "Location List"
+        },
+        {
+          "keys": "Space+xq",
+          "action": "Quickfix List"
+        },
+        {
+          "keys": "[q / ]q",
+          "action": "Previous/Next Quickfix"
+        },
+        {
+          "keys": "Space+st",
+          "action": "Todo"
+        },
+        {
+          "keys": "Space+sT",
+          "action": "Todo/Fix/Fixme"
+        },
+        {
+          "keys": "Space+xt",
+          "action": "Todo (Trouble)"
+        },
+        {
+          "keys": "Space+xT",
+          "action": "Todo/Fix/Fixme (Trouble)"
+        },
+        {
+          "keys": "[t / ]t",
+          "action": "Previous/Next Todo Comment"
+        },
+        {
+          "keys": "Space+xL",
+          "action": "Location List (Trouble)"
+        },
+        {
+          "keys": "Space+xQ",
+          "action": "Quickfix List (Trouble)"
+        },
+        {
+          "keys": "Space+xx",
+          "action": "Diagnostics (Trouble)"
+        },
+        {
+          "keys": "Space+xX",
+          "action": "Buffer Diagnostics (Trouble)"
+        }
+      ],
+      "Other": [
+        {
+          "keys": "Space+K",
+          "action": "Keywordprg"
+        },
+        {
+          "keys": "Space+fn",
+          "action": "New File"
+        },
+        {
+          "keys": "Space+fp",
+          "action": "Search for Plugin Spec"
+        },
+        {
+          "keys": "Space+fn",
+          "action": "Dismiss All Notifications"
+        },
+        {
+          "keys": "Space+K",
+          "action": "Hover"
+        },
+        {
+          "keys": "Space+fp",
+          "action": "Projects"
+        },
+        {
+          "keys": "Space+n",
+          "action": "Neorg History"
+        },
+        {
+          "keys": "Space+S",
+          "action": "Select Scratch Buffer"
+        },
+        {
+          "keys": "Ctrl+w+Space",
+          "action": "Window Hydra Mode (Which-Key)"
+        },
+        {
+          "keys": "Space+?",
+          "action": "Buffer Keymaps (Which-Key)"
+        }
+      ]
+    }
+  },
+  {
+    "app": "Terminal",
+    "icon": "\uf120",
+    "categories": {
+      "Clipboard": [
+        {
+          "keys": "Ctrl+Shift+C",
+          "action": "Copy"
+        },
+        {
+          "keys": "Ctrl+Shift+V",
+          "action": "Paste"
+        }
+      ],
+      "Tabs": [
+        {
+          "keys": "Ctrl+Shift+T",
+          "action": "New Tab"
+        },
+        {
+          "keys": "Ctrl+Shift+W",
+          "action": "Close Tab"
+        },
+        {
+          "keys": "Ctrl+Tab",
+          "action": "Next Tab"
+        },
+        {
+          "keys": "Ctrl+Shift+Tab",
+          "action": "Previous Tab"
+        },
+        {
+          "keys": "Ctrl+Shift+Left",
+          "action": "Move Tab Left"
+        },
+        {
+          "keys": "Ctrl+Shift+Right",
+          "action": "Move Tab Right"
+        },
+        {
+          "keys": "Alt+1-9",
+          "action": "Switch to Tab 1-9"
+        },
+        {
+          "keys": "Ctrl+Shift+PageUp",
+          "action": "Move Tab Left"
+        },
+        {
+          "keys": "Ctrl+Shift+PageDown",
+          "action": "Move Tab Right"
+        },
+        {
+          "keys": "Ctrl+Shift+Left",
+          "action": "Focus Pane Left"
+        },
+        {
+          "keys": "Ctrl+Shift+Right",
+          "action": "Focus Pane Right"
+        }
+      ],
+      "Window": [
+        {
+          "keys": "Ctrl+Shift+N",
+          "action": "New Window"
+        },
+        {
+          "keys": "Alt+Enter",
+          "action": "Toggle Fullscreen"
+        }
+      ],
+      "Font": [
+        {
+          "keys": "Ctrl+Plus",
+          "action": "Zoom In"
+        },
+        {
+          "keys": "Ctrl+Minus",
+          "action": "Zoom Out"
+        },
+        {
+          "keys": "Ctrl+0",
+          "action": "Reset Zoom"
+        }
+      ],
+      "Search": [
+        {
+          "keys": "Ctrl+Shift+F",
+          "action": "Search"
+        },
+        {
+          "keys": "Ctrl+Shift+R",
+          "action": "Find Regex"
+        }
+      ],
+      "Navigation": [
+        {
+          "keys": "Ctrl+L",
+          "action": "Clear Screen"
+        },
+        {
+          "keys": "Ctrl+R",
+          "action": "Reverse Search History"
+        },
+        {
+          "keys": "Ctrl+A",
+          "action": "Move to Beginning of Line"
+        },
+        {
+          "keys": "Ctrl+E",
+          "action": "Move to End of Line"
+        },
+        {
+          "keys": "Ctrl+U",
+          "action": "Cut to Beginning of Line"
+        },
+        {
+          "keys": "Ctrl+K",
+          "action": "Cut to End of Line"
+        },
+        {
+          "keys": "Ctrl+W",
+          "action": "Cut Word Backward"
+        },
+        {
+          "keys": "Alt+D",
+          "action": "Cut Word Forward"
+        },
+        {
+          "keys": "Ctrl+Y",
+          "action": "Paste from Cut Buffer"
+        },
+        {
+          "keys": "Ctrl+_",
+          "action": "Undo"
+        },
+        {
+          "keys": "Alt+Backspace",
+          "action": "Delete Word Backward"
+        },
+        {
+          "keys": "Alt+D",
+          "action": "Delete Word Forward"
+        }
+      ],
+      "Splits": [
+        {
+          "keys": "Ctrl+Shift+Left",
+          "action": "Move Tab Left"
+        },
+        {
+          "keys": "Ctrl+Shift+Right",
+          "action": "Move Tab Right"
+        },
+        {
+          "keys": "Ctrl+Shift+O",
+          "action": "Split Horizontal"
+        },
+        {
+          "keys": "Ctrl+Shift+E",
+          "action": "Split Vertical"
+        },
+        {
+          "keys": "Ctrl+Shift+Up",
+          "action": "Focus Pane Up"
+        },
+        {
+          "keys": "Ctrl+Shift+Down",
+          "action": "Focus Pane Down"
+        },
+        {
+          "keys": "Ctrl+Shift+Left",
+          "action": "Focus Pane Left"
+        },
+        {
+          "keys": "Ctrl+Shift+Right",
+          "action": "Focus Pane Right"
+        },
+        {
+          "keys": "Ctrl+Shift+Z",
+          "action": "Toggle Pane Zoom"
+        }
+      ],
+      "Other": [
+        {
+          "keys": "Ctrl+Shift+I",
+          "action": "Copy as HTML"
+        },
+        {
+          "keys": "Ctrl+F",
+          "action": "Scroll Back (if configured)"
+        },
+        {
+          "keys": "Ctrl+B",
+          "action": "Scroll Forward (if configured)"
+        }
+      ]
+    }
+  },
+  {
+    "app": "Omarchy",
+    "icon": "\uf108",
+    "categories": {
+      "Menus": [
+        {
+          "keys": "Super+Space",
+          "action": "Omarchy Menu"
+        },
+        {
+          "keys": "Super+Alt+Space",
+          "action": "Apps Menu"
+        },
+        {
+          "keys": "Super+K",
+          "action": "Show All Keybindings"
+        },
+        {
+          "keys": "Super+Escape",
+          "action": "System Menu"
+        },
+        {
+          "keys": "Super+Ctrl+O",
+          "action": "Toggle Menu"
+        }
+      ],
+      "System": [
+        {
+          "keys": "Super+Ctrl+L",
+          "action": "Lock Screen"
+        },
+        {
+          "keys": "Super+Ctrl+I",
+          "action": "Toggle Idle Lock"
+        },
+        {
+          "keys": "Super+Ctrl+N",
+          "action": "Toggle Nightlight"
+        },
+        {
+          "keys": "Super+Ctrl+Z",
+          "action": "Zoom In"
+        },
+        {
+          "keys": "Super+Ctrl+Alt+Z",
+          "action": "Reset Zoom"
+        }
+      ],
+      "Windows": [
+        {
+          "keys": "Super+W",
+          "action": "Close Window"
+        },
+        {
+          "keys": "Ctrl+Alt+Del",
+          "action": "Close All Windows"
+        },
+        {
+          "keys": "Super+T",
+          "action": "Toggle Floating/Tiling"
+        },
+        {
+          "keys": "Super+J",
+          "action": "Toggle Split Direction"
+        },
+        {
+          "keys": "Super+O",
+          "action": "Pop Out Window"
+        },
+        {
+          "keys": "Super+L",
+          "action": "Toggle Layout"
+        },
+        {
+          "keys": "Super+P",
+          "action": "Toggle Pseudo Window"
+        },
+        {
+          "keys": "Super+F",
+          "action": "Fullscreen"
+        },
+        {
+          "keys": "Super+Alt+F",
+          "action": "Full Width"
+        },
+        {
+          "keys": "Super+Ctrl+F",
+          "action": "Fake Fullscreen"
+        },
+        {
+          "keys": "Super+G",
+          "action": "Toggle Grouping"
+        },
+        {
+          "keys": "Super+Alt+G",
+          "action": "Remove from Group"
+        },
+        {
+          "keys": "Super+Alt+Tab",
+          "action": "Next in Group"
+        },
+        {
+          "keys": "Super+S",
+          "action": "Scratchpad"
+        },
+        {
+          "keys": "Super+Alt+S",
+          "action": "Send to Scratchpad"
+        }
+      ],
+      "Workspaces": [
+        {
+          "keys": "Super+1/2/3/4",
+          "action": "Switch Workspace"
+        },
+        {
+          "keys": "Super+Tab",
+          "action": "Next Workspace"
+        },
+        {
+          "keys": "Super+Shift+Tab",
+          "action": "Previous Workspace"
+        },
+        {
+          "keys": "Super+Ctrl+Tab",
+          "action": "Last Workspace"
+        },
+        {
+          "keys": "Super+Shift+1/2/3/4",
+          "action": "Move to Workspace"
+        },
+        {
+          "keys": "Super+Shift+Alt+1/2/3/4",
+          "action": "Send to Workspace"
+        }
+      ],
+      "Navigation": [
+        {
+          "keys": "Super+Arrow",
+          "action": "Focus Window"
+        },
+        {
+          "keys": "Super+Shift+Arrow",
+          "action": "Swap Window"
+        },
+        {
+          "keys": "Super+Minus/Equal",
+          "action": "Resize Window"
+        },
+        {
+          "keys": "Alt+Tab",
+          "action": "Next Window"
+        },
+        {
+          "keys": "Alt+Shift+Tab",
+          "action": "Previous Window"
+        },
+        {
+          "keys": "Ctrl+Alt+Tab",
+          "action": "Next Monitor"
+        }
+      ],
+      "Apps": [
+        {
+          "keys": "Super+Enter",
+          "action": "Terminal"
+        },
+        {
+          "keys": "Super+Alt+Enter",
+          "action": "Terminal (tmux)"
+        },
+        {
+          "keys": "Super+Ctrl+Enter",
+          "action": "Herdr"
+        },
+        {
+          "keys": "Super+Shift+Enter",
+          "action": "Browser"
+        },
+        {
+          "keys": "Super+Shift+Alt+B",
+          "action": "Private Browser"
+        },
+        {
+          "keys": "Super+Shift+F",
+          "action": "File Manager"
+        },
+        {
+          "keys": "Super+Shift+Alt+F",
+          "action": "File Manager (cwd)"
+        },
+        {
+          "keys": "Super+Shift+M",
+          "action": "Music (Spotify)"
+        },
+        {
+          "keys": "Super+Shift+N",
+          "action": "Editor (Neovim)"
+        },
+        {
+          "keys": "Super+Shift+A",
+          "action": "AI (ChatGPT)"
+        },
+        {
+          "keys": "Super+Shift+Alt+A",
+          "action": "AI (Grok)"
+        },
+        {
+          "keys": "Super+Shift+G",
+          "action": "Messenger (Signal)"
+        },
+        {
+          "keys": "Super+Shift+Alt+G",
+          "action": "Messenger (WhatsApp)"
+        },
+        {
+          "keys": "Super+Shift+D",
+          "action": "Docker (LazyDocker)"
+        },
+        {
+          "keys": "Super+Shift+O",
+          "action": "Obsidian"
+        },
+        {
+          "keys": "Super+Shift+W",
+          "action": "Writing (Omawrite)"
+        },
+        {
+          "keys": "Super+Shift+X",
+          "action": "X"
+        },
+        {
+          "keys": "Super+Shift+Y",
+          "action": "YouTube"
+        }
+      ],
+      "Clipboard": [
+        {
+          "keys": "Super+C",
+          "action": "Copy"
+        },
+        {
+          "keys": "Super+X",
+          "action": "Cut"
+        },
+        {
+          "keys": "Super+V",
+          "action": "Paste"
+        },
+        {
+          "keys": "Super+Ctrl+V",
+          "action": "Clipboard Manager"
+        },
+        {
+          "keys": "Super+Ctrl+E",
+          "action": "Emoji Picker"
+        }
+      ],
+      "Screenshots": [
+        {
+          "keys": "Print",
+          "action": "Screenshot"
+        },
+        {
+          "keys": "Alt+Print",
+          "action": "Screen Recording"
+        },
+        {
+          "keys": "Super+Print",
+          "action": "Color Picker"
+        },
+        {
+          "keys": "Super+Ctrl+Print",
+          "action": "OCR Text"
+        },
+        {
+          "keys": "Super+Ctrl+C",
+          "action": "Capture Menu"
+        }
+      ],
+      "Panels": [
+        {
+          "keys": "Super+Ctrl+A",
+          "action": "Audio Panel"
+        },
+        {
+          "keys": "Super+Ctrl+B",
+          "action": "Bluetooth Panel"
+        },
+        {
+          "keys": "Super+Ctrl+W",
+          "action": "WiFi Panel"
+        },
+        {
+          "keys": "Super+Ctrl+D",
+          "action": "Display Panel"
+        },
+        {
+          "keys": "Super+Ctrl+P",
+          "action": "Power Panel"
+        },
+        {
+          "keys": "Super+Ctrl+S",
+          "action": "Share Menu"
+        },
+        {
+          "keys": "Super+Ctrl+T",
+          "action": "Activity (btop)"
+        },
+        {
+          "keys": "Super+Ctrl+H",
+          "action": "Hardware Menu"
+        },
+        {
+          "keys": "Super+Ctrl+Q",
+          "action": "Calculator"
+        },
+        {
+          "keys": "Super+Ctrl+1-9",
+          "action": "Toggle Bar Panel"
+        }
+      ],
+      "Display": [
+        {
+          "keys": "Super+Shift+Space",
+          "action": "Toggle Top Bar"
+        },
+        {
+          "keys": "Super+Backspace",
+          "action": "Toggle Transparency"
+        },
+        {
+          "keys": "Super+Shift+Backspace",
+          "action": "Toggle Window Gaps"
+        },
+        {
+          "keys": "Super+Ctrl+Space",
+          "action": "Background Switcher"
+        },
+        {
+          "keys": "Super+Shift+Ctrl+Space",
+          "action": "Theme Menu"
+        },
+        {
+          "keys": "Super+/",
+          "action": "Monitor Scale Up"
+        },
+        {
+          "keys": "Super+Alt+/",
+          "action": "Monitor Scale Down"
+        }
+      ],
+      "Notifications": [
+        {
+          "keys": "Super+Comma",
+          "action": "Dismiss Notification"
+        },
+        {
+          "keys": "Super+Shift+Comma",
+          "action": "Dismiss All"
+        },
+        {
+          "keys": "Super+Alt+Comma",
+          "action": "Last Notification"
+        },
+        {
+          "keys": "Super+Shift+Alt+Comma",
+          "action": "Notification History"
+        },
+        {
+          "keys": "Super+Ctrl+Comma",
+          "action": "Do Not Disturb"
+        }
+      ],
+      "Reminders": [
+        {
+          "keys": "Super+Ctrl+R",
+          "action": "Set Reminder"
+        },
+        {
+          "keys": "Super+Ctrl+Alt+R",
+          "action": "Show Reminders"
+        },
+        {
+          "keys": "Super+Shift+Ctrl+R",
+          "action": "Clear Reminders"
+        }
+      ],
+      "Info": [
+        {
+          "keys": "Super+Ctrl+Alt+T",
+          "action": "Time Info"
+        },
+        {
+          "keys": "Super+Ctrl+Alt+B",
+          "action": "Battery Info"
+        },
+        {
+          "keys": "Super+Ctrl+Alt+W",
+          "action": "Weather Info"
+        },
+        {
+          "keys": "Super+Ctrl+Alt+D",
+          "action": "Calendar"
+        }
+      ]
+    }
+  },
+  {
+    "app": "Tmux",
+    "icon": "\uf489",
+    "categories": {
+      "Windows": [
+        {
+          "keys": "Ctrl+B c",
+          "action": "New Window"
+        },
+        {
+          "keys": "Ctrl+B n",
+          "action": "Next Window"
+        },
+        {
+          "keys": "Ctrl+B p",
+          "action": "Previous Window"
+        },
+        {
+          "keys": "Ctrl+B l",
+          "action": "Last Window"
+        },
+        {
+          "keys": "Ctrl+B w",
+          "action": "List Windows"
+        },
+        {
+          "keys": "Ctrl+B &",
+          "action": "Close Window"
+        },
+        {
+          "keys": "Ctrl+B ,",
+          "action": "Rename Window"
+        },
+        {
+          "keys": "Ctrl+B 0-9",
+          "action": "Select Window 0-9"
+        },
+        {
+          "keys": "Ctrl+B f",
+          "action": "Find Window"
+        },
+        {
+          "keys": "Ctrl+B i",
+          "action": "Window Info"
+        }
+      ],
+      "Panes": [
+        {
+          "keys": "Ctrl+B %",
+          "action": "Split Vertical"
+        },
+        {
+          "keys": "Ctrl+B \"",
+          "action": "Split Horizontal"
+        },
+        {
+          "keys": "Ctrl+B o",
+          "action": "Next Pane"
+        },
+        {
+          "keys": "Ctrl+B ;",
+          "action": "Last Pane"
+        },
+        {
+          "keys": "Ctrl+B q",
+          "action": "Show Pane Numbers"
+        },
+        {
+          "keys": "Ctrl+B x",
+          "action": "Close Pane"
+        },
+        {
+          "keys": "Ctrl+B z",
+          "action": "Toggle Pane Zoom"
+        },
+        {
+          "keys": "Ctrl+B !",
+          "action": "Break Pane to Window"
+        },
+        {
+          "keys": "Ctrl+B {",
+          "action": "Move Pane Left"
+        },
+        {
+          "keys": "Ctrl+B }",
+          "action": "Move Pane Right"
+        },
+        {
+          "keys": "Ctrl+B Up/Down",
+          "action": "Resize Pane"
+        },
+        {
+          "keys": "Ctrl+B h/j/k/l",
+          "action": "Navigate Panes (if configured)"
+        }
+      ],
+      "Sessions": [
+        {
+          "keys": "Ctrl+B d",
+          "action": "Detach Session"
+        },
+        {
+          "keys": "Ctrl+B s",
+          "action": "List Sessions"
+        },
+        {
+          "keys": "Ctrl+B $",
+          "action": "Rename Session"
+        },
+        {
+          "keys": "Ctrl+B (",
+          "action": "Previous Session"
+        },
+        {
+          "keys": "Ctrl+B )",
+          "action": "Next Session"
+        },
+        {
+          "keys": "Ctrl+B P",
+          "action": "Previous Session"
+        },
+        {
+          "keys": "Ctrl+B N",
+          "action": "Next Session"
+        },
+        {
+          "keys": "Ctrl+B L",
+          "action": "Last Session"
+        },
+        {
+          "keys": "Ctrl+B M",
+          "action": "Toggle Mouse Mode"
+        }
+      ],
+      "Copy": [
+        {
+          "keys": "Ctrl+B [",
+          "action": "Copy Mode"
+        },
+        {
+          "keys": "Ctrl+B ]",
+          "action": "Paste"
+        }
+      ],
+      "Other": [
+        {
+          "keys": "Ctrl+B :",
+          "action": "Command Prompt"
+        },
+        {
+          "keys": "Ctrl+B ?",
+          "action": "List Keybindings"
+        },
+        {
+          "keys": "Ctrl+B t",
+          "action": "Show Clock"
+        },
+        {
+          "keys": "Ctrl+B r",
+          "action": "Reload Config"
+        },
+        {
+          "keys": "Ctrl+B Space",
+          "action": "Next Layout"
+        }
+      ]
+    }
+  },
+  {
+    "app": "btop",
+    "icon": "\uf200",
+    "categories": {
+      "Navigation": [
+        {
+          "keys": "h/j/k/l",
+          "action": "Navigate"
+        },
+        {
+          "keys": "Up/Down",
+          "action": "Scroll Process List"
+        },
+        {
+          "keys": "Enter",
+          "action": "Select Process"
+        }
+      ],
+      "Views": [
+        {
+          "keys": "m",
+          "action": "Toggle Menu"
+        },
+        {
+          "keys": "t",
+          "action": "Tree View Toggle"
+        },
+        {
+          "keys": "p",
+          "action": "Toggle Per-CPU View"
+        },
+        {
+          "keys": "d",
+          "action": "Toggle Disk I/O Stats"
+        },
+        {
+          "keys": "n",
+          "action": "Toggle Network Stats"
+        },
+        {
+          "keys": "e",
+          "action": "Toggle Detailed Process Info"
+        },
+        {
+          "keys": "c",
+          "action": "Toggle CPU Graph"
+        },
+        {
+          "keys": "g",
+          "action": "Toggle GPU Stats"
+        },
+        {
+          "keys": "b",
+          "action": "Toggle Battery Stats"
+        },
+        {
+          "keys": "r",
+          "action": "Toggle Resource Graph"
+        }
+      ],
+      "Controls": [
+        {
+          "keys": "q",
+          "action": "Quit"
+        },
+        {
+          "keys": "k",
+          "action": "Kill Process (in process view)"
+        },
+        {
+          "keys": "f",
+          "action": "Filter Processes"
+        },
+        {
+          "keys": "+/-",
+          "action": "Increase/Decrease Update Speed"
+        },
+        {
+          "keys": "0",
+          "action": "Default Update Speed"
+        },
+        {
+          "keys": "Escape",
+          "action": "Back / Cancel Filter"
+        },
+        {
+          "keys": "F1",
+          "action": "Help"
+        },
+        {
+          "keys": "F2",
+          "action": "Options"
+        },
+        {
+          "keys": "space",
+          "action": "Toggle Graph Visibility"
+        }
+      ]
+    }
+  },
+  {
+    "app": "lazygit",
+    "icon": "\uf1d3",
+    "categories": {
+      "Global": [
+        {
+          "keys": "q",
+          "action": "Quit"
+        },
+        {
+          "keys": "Ctrl+C",
+          "action": "Quit"
+        },
+        {
+          "keys": "?",
+          "action": "Keybindings Menu"
+        },
+        {
+          "keys": "+",
+          "action": "Next Screen Mode"
+        },
+        {
+          "keys": "_",
+          "action": "Prev Screen Mode"
+        },
+        {
+          "keys": ":",
+          "action": "Execute Shell Command"
+        },
+        {
+          "keys": "Ctrl+R",
+          "action": "Switch Repo"
+        },
+        {
+          "keys": "Ctrl+S",
+          "action": "Filter Options"
+        },
+        {
+          "keys": "Ctrl+W",
+          "action": "Toggle Whitespace"
+        },
+        {
+          "keys": "Ctrl+Z",
+          "action": "Suspend"
+        }
+      ],
+      "Navigation": [
+        {
+          "keys": "/",
+          "action": "Search"
+        },
+        {
+          "keys": "]",
+          "action": "Next Tab"
+        },
+        {
+          "keys": "[",
+          "action": "Previous Tab"
+        },
+        {
+          "keys": ",",
+          "action": "Previous Page"
+        },
+        {
+          "keys": ".",
+          "action": "Next Page"
+        },
+        {
+          "keys": "<",
+          "action": "Scroll to Top"
+        },
+        {
+          "keys": ">",
+          "action": "Scroll to Bottom"
+        },
+        {
+          "keys": "v",
+          "action": "Toggle Range Select"
+        },
+        {
+          "keys": "H",
+          "action": "Scroll Left"
+        },
+        {
+          "keys": "L",
+          "action": "Scroll Right"
+        }
+      ],
+      "Staging": [
+        {
+          "keys": "space",
+          "action": "Toggle Staged"
+        },
+        {
+          "keys": "a",
+          "action": "Toggle Stage/Unstage"
+        },
+        {
+          "keys": "d",
+          "action": "Discard/Discard Changes"
+        }
+      ],
+      "Commits": [
+        {
+          "keys": "c",
+          "action": "Commit"
+        },
+        {
+          "keys": "C",
+          "action": "Commit with Editor"
+        },
+        {
+          "keys": "A",
+          "action": "Amend Last Commit"
+        },
+        {
+          "keys": "w",
+          "action": "Commit without Pre-commit Hook"
+        },
+        {
+          "keys": "Ctrl+F",
+          "action": "Find Base Commit for Fixup"
+        }
+      ],
+      "Branches": [
+        {
+          "keys": "n",
+          "action": "New Branch"
+        },
+        {
+          "keys": "b",
+          "action": "Checkout Branch"
+        },
+        {
+          "keys": "B",
+          "action": "New Branch (from)"
+        },
+        {
+          "keys": "D",
+          "action": "Delete Branch"
+        },
+        {
+          "keys": "M",
+          "action": "Checkout by Name"
+        },
+        {
+          "keys": "U",
+          "action": "Update Remote"
+        },
+        {
+          "keys": "t",
+          "action": "Create Tag"
+        }
+      ],
+      "Remote": [
+        {
+          "keys": "P",
+          "action": "Push"
+        },
+        {
+          "keys": "p",
+          "action": "Pull"
+        },
+        {
+          "keys": "R",
+          "action": "Refresh"
+        },
+        {
+          "keys": "i",
+          "action": "Open Config"
+        },
+        {
+          "keys": "r",
+          "action": "Rebase"
+        },
+        {
+          "keys": "i",
+          "action": "Interactive Rebase"
+        },
+        {
+          "keys": "f",
+          "action": "Fetch Remote"
+        }
+      ],
+      "Stash": [
+        {
+          "keys": "s",
+          "action": "Stash"
+        },
+        {
+          "keys": "S",
+          "action": "Stash Pop"
+        },
+        {
+          "keys": "K",
+          "action": "Drop Stash"
+        }
+      ],
+      "Other": [
+        {
+          "keys": "m",
+          "action": "Merge/Rebase Options"
+        },
+        {
+          "keys": "z",
+          "action": "Undo"
+        },
+        {
+          "keys": "Z",
+          "action": "Redo"
+        },
+        {
+          "keys": "e",
+          "action": "Edit File"
+        },
+        {
+          "keys": "o",
+          "action": "Open File"
+        },
+        {
+          "keys": "i",
+          "action": "Open Config"
+        },
+        {
+          "keys": "i",
+          "action": "Interactive Rebase"
+        },
+        {
+          "keys": "y",
+          "action": "Copy to Clipboard"
+        }
+      ]
+    }
+  },
+  {
+    "app": "lazydocker",
+    "icon": "\uf308",
+    "categories": {
+      "Global": [
+        {
+          "keys": "q",
+          "action": "Quit"
+        },
+        {
+          "keys": "Ctrl+C",
+          "action": "Quit"
+        },
+        {
+          "keys": "?",
+          "action": "Keybindings Menu"
+        },
+        {
+          "keys": "x",
+          "action": "Options Menu"
+        },
+        {
+          "keys": "X",
+          "action": "Custom Command"
+        },
+        {
+          "keys": "+",
+          "action": "Next Screen Mode"
+        },
+        {
+          "keys": "_",
+          "action": "Prev Screen Mode"
+        }
+      ],
+      "Panels": [
+        {
+          "keys": "1",
+          "action": "Focus Projects Panel"
+        },
+        {
+          "keys": "2",
+          "action": "Focus Services Panel"
+        },
+        {
+          "keys": "3",
+          "action": "Focus Containers Panel"
+        },
+        {
+          "keys": "4",
+          "action": "Focus Images Panel"
+        },
+        {
+          "keys": "5",
+          "action": "Focus Volumes Panel"
+        },
+        {
+          "keys": "6",
+          "action": "Focus Networks Panel"
+        }
+      ],
+      "Navigation": [
+        {
+          "keys": "/",
+          "action": "Filter List"
+        },
+        {
+          "keys": "Enter",
+          "action": "Focus Main Panel"
+        },
+        {
+          "keys": "[",
+          "action": "Previous Tab"
+        },
+        {
+          "keys": "]",
+          "action": "Next Tab"
+        },
+        {
+          "keys": "K",
+          "action": "Scroll Up"
+        },
+        {
+          "keys": "J",
+          "action": "Scroll Down"
+        },
+        {
+          "keys": "PgUp",
+          "action": "Page Up"
+        },
+        {
+          "keys": "PgDn",
+          "action": "Page Down"
+        },
+        {
+          "keys": "Home",
+          "action": "Jump to Top"
+        },
+        {
+          "keys": "End",
+          "action": "Jump to Bottom"
+        },
+        {
+          "keys": "Esc",
+          "action": "Return"
+        }
+      ],
+      "Config": [
+        {
+          "keys": "e",
+          "action": "Edit Config"
+        },
+        {
+          "keys": "o",
+          "action": "Open Config"
+        }
+      ],
+      "Containers": [
+        {
+          "keys": "d",
+          "action": "Remove"
+        },
+        {
+          "keys": "p",
+          "action": "Pause"
+        },
+        {
+          "keys": "s",
+          "action": "Stop"
+        },
+        {
+          "keys": "r",
+          "action": "Restart"
+        },
+        {
+          "keys": "S",
+          "action": "Start (Services)"
+        },
+        {
+          "keys": "a",
+          "action": "Attach"
+        },
+        {
+          "keys": "E",
+          "action": "Exec Shell"
+        },
+        {
+          "keys": "w",
+          "action": "Open in Browser"
+        },
+        {
+          "keys": "c",
+          "action": "Custom Command"
+        },
+        {
+          "keys": "b",
+          "action": "Bulk Commands"
+        },
+        {
+          "keys": "u",
+          "action": "Up Service"
+        },
+        {
+          "keys": "U",
+          "action": "Up Project"
+        },
+        {
+          "keys": "D",
+          "action": "Down Project"
+        },
+        {
+          "keys": "R",
+          "action": "Restart Options"
+        }
+      ],
+      "Other": [
+        {
+          "keys": "m",
+          "action": "View Logs"
+        }
+      ]
+    }
+  },
+  {
+    "app": "lazysql",
+    "icon": "\uf1c0",
+    "categories": {
+      "Global": [
+        {
+          "keys": "q",
+          "action": "Quit"
+        },
+        {
+          "keys": "?",
+          "action": "Help"
+        },
+        {
+          "keys": "Backspace",
+          "action": "Switch to Connections"
+        },
+        {
+          "keys": "Ctrl+P",
+          "action": "Global Search"
+        },
+        {
+          "keys": "Ctrl+_",
+          "action": "Toggle Query History"
+        },
+        {
+          "keys": "T",
+          "action": "Toggle Tree"
+        }
+      ],
+      "Navigation": [
+        {
+          "keys": "L",
+          "action": "Focus Table"
+        },
+        {
+          "keys": "H",
+          "action": "Focus Tree"
+        },
+        {
+          "keys": "j",
+          "action": "Move Down"
+        },
+        {
+          "keys": "k",
+          "action": "Move Up"
+        },
+        {
+          "keys": "Ctrl+D",
+          "action": "Page Down"
+        },
+        {
+          "keys": "Ctrl+U",
+          "action": "Page Up"
+        },
+        {
+          "keys": "g",
+          "action": "Go to Top"
+        },
+        {
+          "keys": "G",
+          "action": "Go to Bottom"
+        },
+        {
+          "keys": "Enter",
+          "action": "Open/Execute"
+        },
+        {
+          "keys": "/",
+          "action": "Search/Filter"
+        },
+        {
+          "keys": "n",
+          "action": "Next Found Node"
+        },
+        {
+          "keys": "N",
+          "action": "Previous Found Node"
+        },
+        {
+          "keys": "p",
+          "action": "Previous Found Node"
+        },
+        {
+          "keys": "P",
+          "action": "Next Found Node"
+        },
+        {
+          "keys": "e",
+          "action": "Expand All"
+        },
+        {
+          "keys": "c",
+          "action": "Collapse All"
+        },
+        {
+          "keys": "R",
+          "action": "Refresh"
+        },
+        {
+          "keys": "Esc",
+          "action": "Unfocus/Cancel"
+        }
+      ],
+      "Table": [
+        {
+          "keys": "d",
+          "action": "Delete Row"
+        },
+        {
+          "keys": "o",
+          "action": "Append New Row"
+        },
+        {
+          "keys": "O",
+          "action": "Duplicate Row"
+        },
+        {
+          "keys": "w",
+          "action": "Go to Next Cell"
+        },
+        {
+          "keys": "b",
+          "action": "Go to Previous Cell"
+        },
+        {
+          "keys": "0",
+          "action": "Go to First Cell"
+        },
+        {
+          "keys": "$",
+          "action": "Go to Last Cell"
+        },
+        {
+          "keys": "y",
+          "action": "Copy to Clipboard"
+        },
+        {
+          "keys": "K",
+          "action": "Sort Ascending"
+        },
+        {
+          "keys": "J",
+          "action": "Sort Descending"
+        },
+        {
+          "keys": "C",
+          "action": "Set Value Menu"
+        }
+      ],
+      "Tabs": [
+        {
+          "keys": "[",
+          "action": "Previous Tab"
+        },
+        {
+          "keys": "]",
+          "action": "Next Tab"
+        },
+        {
+          "keys": "{",
+          "action": "First Tab"
+        },
+        {
+          "keys": "}",
+          "action": "Last Tab"
+        },
+        {
+          "keys": "X",
+          "action": "Close Tab"
+        },
+        {
+          "keys": ">",
+          "action": "Next Page"
+        },
+        {
+          "keys": "<",
+          "action": "Previous Page"
+        }
+      ],
+      "Menus": [
+        {
+          "keys": "1",
+          "action": "Records Menu"
+        },
+        {
+          "keys": "2",
+          "action": "Columns Menu"
+        },
+        {
+          "keys": "3",
+          "action": "Constraints Menu"
+        },
+        {
+          "keys": "4",
+          "action": "Foreign Keys Menu"
+        },
+        {
+          "keys": "5",
+          "action": "Indexes Menu"
+        }
+      ],
+      "Sidebar": [
+        {
+          "keys": "S",
+          "action": "Toggle Sidebar"
+        },
+        {
+          "keys": "s",
+          "action": "Focus Sidebar"
+        }
+      ],
+      "JSON": [
+        {
+          "keys": "Z",
+          "action": "JSON Viewer (Row)"
+        },
+        {
+          "keys": "z",
+          "action": "JSON Viewer (Cell)"
+        },
+        {
+          "keys": "E",
+          "action": "Export CSV"
+        }
+      ],
+      "Editor": [
+        {
+          "keys": "Ctrl+E",
+          "action": "Open SQL Editor"
+        },
+        {
+          "keys": "Ctrl+S",
+          "action": "Save/Execute Changes"
+        },
+        {
+          "keys": "Ctrl+R",
+          "action": "Execute Query"
+        },
+        {
+          "keys": "Ctrl+Space",
+          "action": "Open in External Editor"
+        }
+      ]
+    }
+  },
+  {
+    "app": "herdr",
+    "icon": "\uf489",
+    "categories": {
+      "Help": [
+        {
+          "keys": "prefix+?",
+          "action": "Keybinding Help"
+        }
+      ],
+      "Settings": [
+        {
+          "keys": "prefix+s",
+          "action": "Settings"
+        }
+      ],
+      "Tabs": [
+        {
+          "keys": "prefix+c",
+          "action": "New Tab"
+        },
+        {
+          "keys": "prefix+n",
+          "action": "Next Tab"
+        },
+        {
+          "keys": "prefix+p",
+          "action": "Previous Tab"
+        },
+        {
+          "keys": "prefix+1..9",
+          "action": "Switch Tab 1-9"
+        },
+        {
+          "keys": "prefix+shift+t",
+          "action": "Rename Tab"
+        },
+        {
+          "keys": "prefix+shift+x",
+          "action": "Close Tab"
+        }
+      ],
+      "Splits": [
+        {
+          "keys": "prefix+v",
+          "action": "Split Vertical"
+        },
+        {
+          "keys": "prefix+minus",
+          "action": "Split Horizontal"
+        }
+      ],
+      "Panes": [
+        {
+          "keys": "prefix+h/j/k/l",
+          "action": "Focus Pane"
+        },
+        {
+          "keys": "prefix+shift+h/j/k/l",
+          "action": "Swap Panes"
+        },
+        {
+          "keys": "prefix+tab",
+          "action": "Cycle Pane Next"
+        },
+        {
+          "keys": "prefix+shift+tab",
+          "action": "Cycle Pane Previous"
+        },
+        {
+          "keys": "prefix+z",
+          "action": "Zoom Pane"
+        },
+        {
+          "keys": "prefix+x",
+          "action": "Close Pane"
+        },
+        {
+          "keys": "prefix+r",
+          "action": "Resize Mode"
+        },
+        {
+          "keys": "prefix+shift+p",
+          "action": "Rename Pane"
+        }
+      ],
+      "Copy": [
+        {
+          "keys": "prefix+[",
+          "action": "Copy Mode"
+        }
+      ],
+      "Scrollback": [
+        {
+          "keys": "prefix+e",
+          "action": "Edit Scrollback"
+        }
+      ],
+      "Workspaces": [
+        {
+          "keys": "prefix+w",
+          "action": "Workspace Picker"
+        },
+        {
+          "keys": "prefix+g",
+          "action": "Session Navigator"
+        },
+        {
+          "keys": "prefix+shift+n",
+          "action": "New Workspace"
+        },
+        {
+          "keys": "prefix+shift+w",
+          "action": "Rename Workspace"
+        },
+        {
+          "keys": "prefix+shift+d",
+          "action": "Close Workspace"
+        }
+      ],
+      "Session": [
+        {
+          "keys": "prefix+q",
+          "action": "Detach"
+        },
+        {
+          "keys": "prefix+shift+r",
+          "action": "Reload Config"
+        }
+      ],
+      "Palette": [
+        {
+          "keys": "prefix+space",
+          "action": "Command Palette"
+        }
+      ],
+      "Direct": [
+        {
+          "keys": "ctrl+alt+h/j/k/l",
+          "action": "Focus Pane (direct)"
+        },
+        {
+          "keys": "ctrl+alt+c",
+          "action": "New Tab (direct)"
+        },
+        {
+          "keys": "ctrl+alt+d",
+          "action": "Split Vertical (direct)"
+        },
+        {
+          "keys": "ctrl+alt+z",
+          "action": "Zoom (direct)"
+        },
+        {
+          "keys": "ctrl+alt+[ / ]",
+          "action": "Prev/Next Tab (direct)"
+        }
+      ]
+    }
+  },
+  {
+    "app": "Nautilus",
+    "icon": "\uf07b",
+    "categories": {
+      "Window": [
+        {
+          "keys": "Ctrl+N",
+          "action": "New Window"
+        },
+        {
+          "keys": "Ctrl+W",
+          "action": "Close Tab/Window"
+        }
+      ],
+      "Tabs": [
+        {
+          "keys": "Ctrl+T",
+          "action": "New Tab"
+        },
+        {
+          "keys": "Ctrl+Tab",
+          "action": "Next Tab"
+        },
+        {
+          "keys": "Ctrl+Shift+Tab",
+          "action": "Previous Tab"
+        }
+      ],
+      "Navigation": [
+        {
+          "keys": "Ctrl+L",
+          "action": "Location Bar"
+        },
+        {
+          "keys": "Alt+Up",
+          "action": "Parent Directory"
+        },
+        {
+          "keys": "Alt+Home",
+          "action": "Home Directory"
+        },
+        {
+          "keys": "Alt+Left",
+          "action": "Go Back"
+        },
+        {
+          "keys": "Alt+Right",
+          "action": "Go Forward"
+        }
+      ],
+      "File Ops": [
+        {
+          "keys": "F2",
+          "action": "Rename"
+        },
+        {
+          "keys": "Delete",
+          "action": "Move to Trash"
+        },
+        {
+          "keys": "Shift+Delete",
+          "action": "Delete Permanently"
+        },
+        {
+          "keys": "Ctrl+C",
+          "action": "Copy"
+        },
+        {
+          "keys": "Ctrl+X",
+          "action": "Cut"
+        },
+        {
+          "keys": "Ctrl+V",
+          "action": "Paste"
+        },
+        {
+          "keys": "Ctrl+A",
+          "action": "Select All"
+        },
+        {
+          "keys": "Ctrl+Z",
+          "action": "Undo"
+        },
+        {
+          "keys": "Ctrl+Shift+Z",
+          "action": "Redo"
+        }
+      ],
+      "View": [
+        {
+          "keys": "F5",
+          "action": "Refresh"
+        },
+        {
+          "keys": "Ctrl+F",
+          "action": "Search"
+        },
+        {
+          "keys": "Ctrl+H",
+          "action": "Show Hidden Files"
+        },
+        {
+          "keys": "Alt+Enter",
+          "action": "Properties"
+        },
+        {
+          "keys": "Ctrl+1",
+          "action": "Icon View"
+        },
+        {
+          "keys": "Ctrl+2",
+          "action": "List View"
+        }
+      ],
+      "Zoom": [
+        {
+          "keys": "Ctrl+Plus",
+          "action": "Zoom In"
+        },
+        {
+          "keys": "Ctrl+Minus",
+          "action": "Zoom Out"
+        },
+        {
+          "keys": "Ctrl+0",
+          "action": "Reset Zoom"
+        }
+      ],
+      "Other": [
+        {
+          "keys": "Ctrl+Shift+N",
+          "action": "New Folder"
+        },
+        {
+          "keys": "F3",
+          "action": "Split View"
+        }
+      ]
+    }
+  },
+  {
+    "app": "Ghostty",
+    "icon": "\uf120",
+    "categories": {
+      "Clipboard": [
+        {
+          "keys": "Ctrl+Shift+C",
+          "action": "Copy"
+        },
+        {
+          "keys": "Ctrl+Shift+V",
+          "action": "Paste"
+        }
+      ],
+      "Tabs": [
+        {
+          "keys": "Ctrl+Shift+T",
+          "action": "New Tab"
+        },
+        {
+          "keys": "Ctrl+Shift+W",
+          "action": "Close Tab"
+        },
+        {
+          "keys": "Ctrl+Tab",
+          "action": "Next Tab"
+        },
+        {
+          "keys": "Ctrl+Shift+Tab",
+          "action": "Previous Tab"
+        },
+        {
+          "keys": "Ctrl+Shift+Left",
+          "action": "Move Tab Left"
+        },
+        {
+          "keys": "Ctrl+Shift+Right",
+          "action": "Move Tab Right"
+        },
+        {
+          "keys": "Alt+1-9",
+          "action": "Go to Tab 1-9"
+        }
+      ],
+      "Window": [
+        {
+          "keys": "Ctrl+Shift+Enter",
+          "action": "New Window"
+        },
+        {
+          "keys": "Ctrl+Shift+Z",
+          "action": "Toggle Maximize"
+        },
+        {
+          "keys": "F11",
+          "action": "Toggle Fullscreen"
+        }
+      ],
+      "Font": [
+        {
+          "keys": "Ctrl+Plus",
+          "action": "Increase Font Size"
+        },
+        {
+          "keys": "Ctrl+Minus",
+          "action": "Decrease Font Size"
+        },
+        {
+          "keys": "Ctrl+0",
+          "action": "Reset Font Size"
+        }
+      ],
+      "Search": [
+        {
+          "keys": "Ctrl+Shift+F",
+          "action": "Search"
+        }
+      ],
+      "Terminal": [
+        {
+          "keys": "Ctrl+Shift+R",
+          "action": "Reset Terminal"
+        },
+        {
+          "keys": "Ctrl+L",
+          "action": "Clear Screen"
+        }
+      ],
+      "Splits": [
+        {
+          "keys": "Ctrl+Shift+O",
+          "action": "Split Horizontal"
+        },
+        {
+          "keys": "Ctrl+Shift+E",
+          "action": "Split Vertical"
+        },
+        {
+          "keys": "Ctrl+Alt+Up",
+          "action": "Focus Split Up"
+        },
+        {
+          "keys": "Ctrl+Alt+Down",
+          "action": "Focus Split Down"
+        },
+        {
+          "keys": "Ctrl+Alt+Left",
+          "action": "Focus Split Left"
+        },
+        {
+          "keys": "Ctrl+Alt+Right",
+          "action": "Focus Split Right"
+        }
+      ],
+      "Other": [
+        {
+          "keys": "Ctrl+Shift+I",
+          "action": "Inspector"
+        }
+      ]
+    }
+  }
+]
