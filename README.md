@@ -1,4 +1,4 @@
-# valiwis-shortcuts
+# omarchy-valiwis-shortcuts
 
 An Omarchy Quickshell plugin that displays keyboard shortcuts and CLI commands in a searchable interface.
 
